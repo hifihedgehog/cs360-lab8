@@ -1,0 +1,55 @@
+nohup: ignoring input
+
+> comments@0.0.0 start /opt/bitnami/apache2/htdocs/comments
+> node ./bin/www
+
+Connected
+[0mGET / [36m304 [0m5.903 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.477 ms - -[0m
+[0mGET / [32m200 [0m2.739 ms - 718[0m
+[0mGET /javascripts/comments.js [32m200 [0m1.227 ms - 1809[0m
+In the GET route?
+[ { __v: 0,
+    Comment: '',
+    Name: 'David',
+    _id: 56e7a96c0c27a2f87b5b0fd9 },
+  { __v: 0, Comment: '', _id: 56e7a9a66fa11a1d7c7af391 },
+  { __v: 0, Comment: '', _id: 56e7a9ac6fa11a1d7c7af392 },
+  { __v: 0, Comment: '', _id: 56e7a9ad6fa11a1d7c7af393 },
+  { __v: 0, Comment: '', _id: 56e7a9ad6fa11a1d7c7af394 },
+  { __v: 0, Comment: '', _id: 56e7a9ad6fa11a1d7c7af395 },
+  { __v: 0, Comment: '', _id: 56e7a9ad6fa11a1d7c7af396 },
+  { __v: 0, Comment: '', _id: 56e7a9ae6fa11a1d7c7af397 },
+  { __v: 0, Comment: 't', _id: 56e7a9dc2687a0397cfcf41a },
+  { __v: 0, Comment: 'ta', _id: 56e7a9e62687a0397cfcf41b },
+  { __v: 0, Comment: 'ta', _id: 56e7a9e82687a0397cfcf41c },
+  { __v: 0,
+    Comment: '1',
+    LastName: 'test',
+    FirstName: 'test',
+    _id: 56e7aad88fd32ee47cdd5f44 },
+  { __v: 0,
+    Giph: 'http://media1.giphy.com/media/VKLq7tgUIoPrG/giphy.gif',
+    Comment: '',
+    LastName: '',
+    FirstName: 't',
+    _id: 56e7afcdf1bdb5a77dd4774f },
+  { __v: 0,
+    Comment: 'b',
+    LastName: 'a',
+    FirstName: 't',
+    _id: 56e7b003b809b3c17d9e372b },
+  { __v: 0,
+    Comment: 'b',
+    LastName: 'a',
+    FirstName: 't',
+    _id: 56e7b006b809b3c17d9e372c },
+  { __v: 0,
+    Comment: 'Chomp',
+    LastName: 'Man',
+    FirstName: 'Pac',
+    _id: 56e7b0312c593adb7d969c6f } ]
+[0mGET /comment [36m304 [0m23.593 ms - -[0m
+[0mGET /undefined [33m404 [0m355.417 ms - 1839[0m
+[0mGET / [36m304 [0m1.048 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.545 ms - -[0m
